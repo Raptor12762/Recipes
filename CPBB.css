@@ -1,3 +1,4 @@
+/*Video*/
 iframe{
     aspect-ratio: 16/9;
     border: none;
@@ -8,12 +9,10 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 /*Thank You, Richard*/
 
-
+/*Video and Image Flex*/
 .MediaFlex{
     display: flex;
     flex-direction: row;
@@ -21,11 +20,13 @@ body {
     gap: 24px;
 }
 
+/*Image and Text Flex*/
 .RecipeFlex{
     display: flex;
     flex-direction: column;
 }
 
+/*Image Sizing*/
 .RecipeFlex img {
     width: 400px;
     aspect-ratio: 16/9;
@@ -33,6 +34,7 @@ body {
 }
 /*Thank You, Richard*/
 
+/*Ingredients Styling*/
 ul{
     list-style-type: square;
 }
@@ -40,4 +42,9 @@ ul{
 hr{
     width: 100%;
     height: auto;
+}
+
+/*Steps Styling*/
+ol{
+    list-style-type: upper-roman;
 }
