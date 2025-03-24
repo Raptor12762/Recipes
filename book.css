@@ -48,3 +48,23 @@ hr{
 ol{
     list-style-type: upper-roman;
 }
+
+/*making things fit in place*/
+.imgflex{
+    object-fit: cover;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.w-full {
+    width: 100%;
+}
+
+.aspect-video {
+    aspect-ratio: 16/9;
+}
+/*thanks for all the help, Richard*/
