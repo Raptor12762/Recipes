@@ -21,7 +21,13 @@
     </nav>
     <!--Div for flexboxes so Video and Image (and text) Can Line Up Properly-->
     <div class="MediaFlex">
-        <iframe width="70%" height="70%" src="https://www.youtube.com/embed/CJeIVrtzE-g" allow="fullscreen;"></iframe>
+        <!--made so text is directly below video-->
+        <div class="flex-col w-full">
+            <!--Video-->
+            <iframe width="70%" height="70%" src="https://www.youtube.com/embed/CJeIVrtzE-g" allow="fullscreen;"></iframe>
+            <!--Description-->
+            <p>I love Peanut Butter Bars. They are chocolaty. They are also really easy to make for a large group.</p>
+        </div>
         <div class="RecipeFlex">
             <img src="../Images/Cut_Bars.jpg" alt="Peanut Butter Bars">
             <!--Recipe-->
@@ -50,7 +56,5 @@
             </ol>
         </div>
     </div>
-    <!--Description-->
-    <p>I love Peanut Butter Bars. They are chocolaty. They are also really easy to make for a large group.</p>
 </body>
 </html>

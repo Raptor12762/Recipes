@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="../navbar.css">
 </head>
 <body>
+    <map name="Almond">
+        <area shape="rect" coords="" alt="Almond Pound Cake Link" href="../AlmondPoundCake/index.html">
+    </map>
     <!--Navbar-->
     <nav class="flex-row-nav">
         <div class="spacer"></div>
@@ -21,7 +24,13 @@
     </nav>
     <!--Div for flexboxes so Video and Image (and text) Can Line Up Properly-->
     <div class="MediaFlex">
-        <iframe width="70%" height="70%" src="https://www.youtube.com/embed/" allow="fullscreen;"><!--Embed Link Fix--></iframe>
+        <!--made so text is directly below video-->
+        <div class="flex-col w-full">
+            <!--Video-->
+            <iframe src="https://www.youtube.com/embed/" allow="fullscreen;"><!--Embed Link Fix--></iframe>
+            <!--Description-->
+            <p>This cake is nice and fluffy. It also makes a good and simple birthday cake, unless you want to put on icing.</p>
+        </div>
         <div class="RecipeFlex">
             <img src="../Images/Cut_Bars.jpg" alt="Peanut Butter Bars"> <!--Fix Image-->
             <!--Recipe-->
@@ -56,7 +65,5 @@
             </ol>
         </div>
     </div>
-    <!--Description-->
-    <p></p>
     </body>
 </html>
