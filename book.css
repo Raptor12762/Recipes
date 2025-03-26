@@ -68,3 +68,7 @@ ol{
     aspect-ratio: 16/9;
 }
 /*thanks for all the help, Richard*/
+
+body{
+    background-color: lightblue;
+}
